@@ -38,19 +38,20 @@ int main()
 	{
 		// handle for no
 	}
-
-	printf("\nWhich option would you like to use? [1 / 2 / help] ");
+	
+	scanf("%c", &choice);
+	printf("\nWhich option would you like to use? [1 / 2 / h] ");
 
 	// Conversion handling
-	if ()
+	if (choice == '1')
 	{
 		// handle 1
 	}
-	else if ()
+	else if (choice == '2')
 	{
 		// handle 2
 	}
-	else if ()
+	else if (choice == 'h')
 	{
 		// handle help
 	}
