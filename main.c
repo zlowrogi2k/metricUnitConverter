@@ -23,7 +23,7 @@ int main()
 	float num;
 
 	// Welcome message and usage guide
-	printf("Welcome to the conversion program!\n");
+	printf("\nWelcome to the conversion program!\n");
 	printf("You can convert kilometers to miles and vice versa. Just choose one of the options:\n");
 	helpMsg();
 	printf("Do you understand the instructions? [y/n] ");
@@ -39,9 +39,26 @@ int main()
 		// handle for no
 	}
 
-	printf("Which option would you like to use? [1 / 2 / help] ");
+	printf("\nWhich option would you like to use? [1 / 2 / help] ");
 
 	// Conversion handling
+	if ()
+	{
+		// handle 1
+	}
+	else if ()
+	{
+		// handle 2
+	}
+	else if ()
+	{
+		// handle help
+	}
+	else
+	{
+		// handle invalid input
+	}
+
 	return 0;
 }
 
