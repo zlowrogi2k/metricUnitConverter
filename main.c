@@ -28,7 +28,7 @@ int main()
 	printf("You can convert kilometers to miles and vice versa. Just choose one of the options:\n");
 	helpMsg();
 	
-	printf("\nWhich option would you like to use? [1 / 2 / h] ");
+	printf("\nWhich option would you like to use? [1 / 2] ");
 
 	// Conversion handling
 	scanf("%c", &choice);
@@ -48,13 +48,9 @@ int main()
 		output = mKmConversion(distance);
 		printf("\n%f kilometers converted to miles is %f\n", distance, output);
 	}
-	else if (choice == 'h')
-	{
-		// handle help
-	}
 	else
 	{
-		// handle invalid input
+		printf("\n\nInvalid input!\n\n");
 	}
 
 	return 0;
